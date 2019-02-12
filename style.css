@@ -1,0 +1,34 @@
+.middle {
+	display: flex !important;
+	justify-content: center;
+	width: 700px !important;
+	flex-direction: column;
+	padding: 20px;
+}
+
+.table {
+	margin-top: 20px !important;
+}
+
+.php-img {
+	width: 250px;
+	display: block;
+	margin: auto;
+}
+
+.title {
+	display: flex;
+	flex-direction: column;
+	align-self: center;
+}
+
+footer > div {
+	text-align: center;
+	color: gray;
+}
+
+@media screen and (max-width: 770px) {
+	.middle {
+		width: 100% !important;
+	}
+}
